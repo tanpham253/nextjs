@@ -1,6 +1,6 @@
-'''
+```
 npx create-next-app@latest .
-'''
+```
 
 ![Dir](public/structure.png)
 
