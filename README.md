@@ -25,6 +25,10 @@ Module css example in blog
 GoogleManager Nextjs
 Nesting layout
 
+app -> layoutComponents -> folderRoute
+
+use fetch API in server components
+
 ///////////////
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).

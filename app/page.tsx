@@ -1,4 +1,4 @@
-import MyProfile from "./component/ui/MyProfile";
+import MyProfile from "../component/ui/MyProfile";
 
 export default function Home() {
   return (
