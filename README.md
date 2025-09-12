@@ -18,6 +18,13 @@ Client should only put on components don't require others
 Server component can't be imported to Client components
 Client components contain functions
 
+Navigation in next/navigation (for client components) for server use Link
+
+Module css example in blog
+
+GoogleManager Nextjs
+Nesting layout
+
 ///////////////
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).

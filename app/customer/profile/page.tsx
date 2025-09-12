@@ -1,13 +1,14 @@
 "use client";
-
-import MyProfile from "@/app/component/ui/MyProfile";
-import React from "react";
+import { useRouter } from "next/navigation";
 
 const pageProfile = () => {
+  const router = useRouter();
   return (
     <>
       <h1>profilepage</h1>
-      <MyProfile />
+      <button onClick={() => {
+        router.push("/");
+      }}>Go Home</button>
     </>
   );
 };
