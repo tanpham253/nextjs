@@ -15,7 +15,8 @@ use Link instead a tag in nextjs
 ![Dir](public/server-client.png)
 
 Client should only put on components don't require others
-Server component imported to Client component will become client
+Server component can't be imported to Client components
+Client components contain functions
 
 ///////////////
 

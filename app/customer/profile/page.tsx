@@ -1,9 +1,15 @@
-import React from 'react'
+"use client";
+
+import MyProfile from "@/app/component/ui/MyProfile";
+import React from "react";
 
 const pageProfile = () => {
   return (
-    <div>profilepage</div>
-  )
-}
+    <>
+      <h1>profilepage</h1>
+      <MyProfile />
+    </>
+  );
+};
 
-export default pageProfile
+export default pageProfile;
