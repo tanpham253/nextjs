@@ -8,7 +8,19 @@ Component contain ui layout
 
 import to layout
 
+use Link instead a tag in nextjs
+
+### Server and Client Components
+
+![Dir](public/server-client.png)
+
+Client should only put on components don't require others
+Server component imported to Client component will become client
+
+///////////////
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns
 
 ## Getting Started
 
