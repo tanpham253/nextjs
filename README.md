@@ -14,8 +14,8 @@ use Link instead a tag in nextjs
 
 ![Dir](public/server-client.png)
 
-Client should only put on components don't require others
-Server component can't be imported to Client components
+Client should only put on components don't require others. Server component can't be imported to Client components
+
 Client components contain functions
 
 Navigation in next/navigation (for client components) for server use Link

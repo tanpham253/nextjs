@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonAddToCart from '@/component/ui/ButtonAddToCart'
 
 const fetchProduct = async () => {
-    const response = await fetch("https://learn-backend-nodejs.onrender.com/api/v1/products")
+    const response = await fetch(`https://learn-backend-nodejs.onrender.com/api/v1/products`)
     return response.json();
 }
 
